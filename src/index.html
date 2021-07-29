@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>布魯斯TailwindCSS教學</title>
-  </head>
-  <body class="bg-gray-500"></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook</title>
+</head>
+
+<body class="bg-fb-bg">
+  <header class="bg-fb-header w-full h-[56px] fixed top-0 right-0 left-0 text-white"></header>
+  <main class="min-h-[100vh] flex pt-main-span">
+    <!-- 左側資訊欄 -->
+    <div class="hidden w-full h-full max-w-[360px] sticky top-main-span lg:block">
+      <p class="bg-blue-300">左側資訊欄</p>
+    </div>
+    <!-- 動態牆 -->
+    <div class="h-[200vh] w-full max-w-[744px] mx-auto">
+      <p class="bg-white">動態牆</p>
+    </div>
+    <!-- 右側聯絡人 -->
+    <div class="hidden w-full h-full max-w-[360px] sticky top-main-span lg:block">
+      <p class="bg-green-300">右側聯絡人</p>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+
 </html>
